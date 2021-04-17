@@ -14,8 +14,8 @@
 - The database is in the Sanity.io cloud, on a free tire plan.
 - This repository contains all **data modeling** from the [Blog](https://github.com/nandotess/blog) project.
 - There are 2 datasets: **development** and **production**.
-- The **development** dataset is used on [development site](#) or when running the project on localhost.
-- The **production** dataset us used on [production site](#).
+- The **development** dataset is used when running the project on localhost.
+- The **production** dataset is used on [production site](https://blog-digital-extremes.vercel.app/).
 - [REST API](https://www.sanity.io/docs/http-api) is used by the **backend** to communicate with the database.
 - [GROQ](https://www.sanity.io/docs/groq) is used by the **frontend** to communicate with the database.
 - All the datasets are protected by tokens to authenticate. There is one token for the backend (read + write) and one token for the frontend.
