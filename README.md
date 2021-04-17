@@ -24,3 +24,5 @@
 
 - To update the **development** dataset's schema, run `npm run deploy:development` in your terminal.
 - To update the on **production** dataset's schema, run `npm run deploy:production` in your terminal.
+
+_Note: execute `npm install` in your terminal before executing any other command._
