@@ -19,3 +19,8 @@
 - [REST API](https://www.sanity.io/docs/http-api) is used by the **backend** to communicate with the database.
 - [GROQ](https://www.sanity.io/docs/groq) is used by the **frontend** to communicate with the database.
 - All the datasets are protected by tokens to authenticate. There is one token for the backend (read + write) and one token for the frontend.
+
+## Updating Schemas
+
+- To update the **development** dataset's schema, run `npm run deploy:development` in your terminal.
+- To update the on **production** dataset's schema, run `npm run deploy:production` in your terminal.
