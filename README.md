@@ -16,9 +16,9 @@
 - There are 2 datasets: **development** and **production**.
 - The **development** dataset is used when running the project on localhost.
 - The **production** dataset is used on [production site](https://blog-digital-extremes.vercel.app/).
-- [REST API](https://www.sanity.io/docs/http-api) is used by the **backend** to communicate with the database.
-- [GROQ](https://www.sanity.io/docs/groq) is used by the **frontend** to communicate with the database.
-- All the datasets are protected by tokens to authenticate. There is one token for the backend (read + write) and one token for the frontend.
+- [REST API](https://www.sanity.io/docs/http-api) is used by the **backend** and **frontend** to communicate with the database (POST, PUT and DELETE).
+- [GROQ](https://www.sanity.io/docs/groq) is used by the **backend** and **frontend** to communicate with the database (GET).
+- All the datasets are protected by tokens to authenticate. There is one token for the **backend** (read + write) and one token for the **frontend** (read).
 
 ## Updating Schemas
 
