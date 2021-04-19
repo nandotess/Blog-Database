@@ -11,8 +11,11 @@ export default {
     {
       name: 'author',
       title: 'Author',
-      type: 'reference',
-      to: { type: 'author' }
+      type: 'string'
+      // it's not possible (yet) to create/update
+      // a hard reference using any API
+      // type: 'reference',
+      // to: { type: 'author' }
     },
     {
       name: 'mainImage',
@@ -37,16 +40,16 @@ export default {
   preview: {
     select: {
       title: 'title',
-      author: 'author.displayName',
+      // author: 'author.displayName',
       media: 'mainImage'
-    },
-
-    prepare(selection) {
-      const { author } = selection;
-
-      return Object.assign({}, selection, {
-        subtitle: author && `by ${author}`
-      });
     }
+
+    // prepare(selection) {
+    //   const { author } = selection;
+
+    //   return Object.assign({}, selection, {
+    //     subtitle: author && `by ${author}`
+    //   });
+    // }
   }
 };
